@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+    <header class="bg-white fixed w-full z-30 shadow-md items-center">
+        <div class="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8 items-center">
+            <div class="flex justify-between h-16 items-center">
+                <!---logo--->
+                <div>
+                    <a href="#" class="text-2xl font-bold text-indigo-600">
+                        Eventx 
+                    </a>
+                </div>
+                <!--desktop menu-->
+                <!--desktop menu-->
+                 <nav class="hidden md:flex space-x-8 items-center text-black">
+                    <a href="#about"
+                    class="hover:text-indigo-600">About</a>
+                     <a href="#speakers"
+                    class="hover:text-indigo-600">Speakers</a>
+                     <a href="#schedule"
+                    class="hover:text-indigo-600">Schedule</a>
+                    <a href="#register"
+                    class=" bg-indigo-600 text-white px-4 py-2 rounded-lg hover:text-yellow-400">Register</a>
+                 </nav>
+                      <button id="menu-btn" class="md:hidden flex items-center text-gray-700 hover:text-indigo-600 ">
+                          <svg class="w-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                          </svg>
+                      </button>
+                      <!-- mobile dropdown -->
+                      <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md text-black absolute top-16 right-0 max-w-3xl z-40">
+                          <a href="#about" class="block px-4 py-2 hover:bg-gray-100">About</a>
+                          <a href="#speakers" class="block px-4 py-2 hover:bg-gray-100">Speakers</a>
+                          <a href="#schedule" class="block px-4 py-2 hover:bg-gray-100">Schedule</a>
+                          <a href="#register" class="block px-4 py-2 bg-indigo-600 text-white rounded-lg hover:text-yellow-400">Register</a>
+                      </div>
+                 
+                
+            </div>
+        </div>
+    
+
+    </header>
+    <section class="bg-gradient-to-r grom-indigo-600 via-purple-600 to-pink-600 text-white h-screen pt-30 pb-24">
+                    <div class="max-w-4xl mx-auto text-center px-4 items-center"> 
+                        <h1 class="text-8xl font-extrabold mb-6 "><b>Ignite Your Creativity at Inspire 2025 </b>
+                        </h1>
+                        <p class="text-lg sm:text-xl mb-8">Join visionaries and innovators for a two day celebration of ideas,tech,and art</p>
+                        <a href="#register" class="px-8 py-3 text-lg font-semibold bg-white text-indigo-700 rounded-full shadow-lg">Reserve your seat</a>
+                    </div>
+
+    </section>
+    <section class="pt-10 pb-24">
+        <div class="max-w-6xl mx-auto text-center px-4 items-center">
+            <h2 class="text-4xl font-bold mb-6">About the Event</h2>
+            <p class="text-lg sm:text-xl mb-4">Inspire 2025 is a premier conference bringing together creators,developers,and entrepreneurs to explore cutting-edge ideas and transformative technologies</p>
+
+        </div>
+
+    </section>
+    <section class="">
+        <div class="max-w-9xl mx-auto text-center px-4 bg-slate-800 pt-15 pb-60 items-center">
+                <h2 class="text-4xl font-bold mb-6 pt-5">Event Highlights</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-10">
+                        <div class="bg-slate-700 h-45 flex flex-col items-center justify-center text-white rounded-lg shadow-lg pb-5 pt-5">
+                            <!-- Keynote Talks Icon -->
+                            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/time-icon-svg-download-png-5144573.png?f=webp&w=128" alt="Networking" class="w-13 h-13 mb-2 text-blue-400">
+                            <h3 class="text-2xl font-semibold mb-2">Keynote Talks</h3>
+                            <p>Hear from industry leaders shaping tommorows world.</p>
+                        </div>
+                        <div class="bg-slate-700 h-45 flex flex-col items-center justify-center text-white rounded-lg shadow-lg pb-5 pt-5">
+                            <!-- Hands-on Workshops Icon -->
+                            <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/workshop-icon-download-in-svg-png-gif-file-formats--business-presentation-seminar-training-upskill-pack-icons-12191899.png?f=webp&w=128" alt="Ne" class="w-12 h-14 mb-2 text-blue-400">
+                            <h3 class="text-2xl font-semibold mb-2">Hands-on Workshops</h3>
+                            <p>Gain practical skill with expert-led sessions.</p>
+                        </div>
+                        <div class="bg-slate-700 h-45 flex flex-col items-center justify-center text-white rounded-lg shadow-lg pb-5 pt-5">
+                            <!-- Networking Icon -->
+                            <img src="https://cdn-icons-png.freepik.com/256/7237/7237403.png?semt=ais_white_label" alt="Netng" class="w-13 h-13 mb-2 text-blue-400">
+                            <h3 class="text-2xl font-semibold mb-2">Networking</h3>
+                            <p>Connect with peers and pottential collaborators.</p>
+                        </div>
+                </div>
+        </div>
+
+    </section>
+
+
+    <section class="">
+    <div class="max-w-9xl mx-auto text-center px-4 bg-slate-700 pb-24 items-center">
+            <h2 class="text-4xl font-bold mb-10 pt-5">Event Schedule</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Day 1 -->
+                    <div class="bg-slate-800 rounded-lg shadow-lg p-6 relative text-left text-white">
+                        <span class="absolute top-6 right-6  text-white px-3 py-1 rounded-full text-sm font-semibold"> 10:00 AM - 5:00 PM</span>
+                        <h3 class="text-2xl font-semibold mb-4">Day 1</h3>
+                        
+                        <h4 class="text-xl font-bold mt-6 mb-2">Vision and Innovation</h4>
+                        <p class="text-base mb-2">Keynote and Product Showcase.</p>
+                    </div>
+                <!-- Day 2 -->
+                    <div class="bg-slate-800 rounded-lg shadow-lg p-6 relative text-left text-white">
+                        <span class="absolute top-6 right-6  text-white px-3 py-1 rounded-full text-sm font-semibold"> 10:00 AM - 4:00 PM</span>
+                        <h3 class="text-2xl font-semibold mb-4">Day 2</h3>
+                        
+                        <h4 class="text-xl font-bold mt-6 mb-2">Workshop and Networking</h4>
+                        <p class="text-base mb-2">Workshop and Networking.</p>
+                    </div>
+            </div>
+        </div>
+        </section>
+        <section>
+        <div class="max-w-9xl mx-auto text-center px-4 bg-blue-800 pb-65 items-center">
+            <h2 class="text-4xl font-bold mb-10 pt-13">Reserve Your Spot</h2>
+                    <form class="flex flex-col max-w-xl  mx-auto pt-8">
+                        <input type="text" placeholder="Name" class="w-full mb-4 px-5 py-6 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+                        <input type="email" placeholder="Email" class="w-full mb-4 px-5 py-6 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+                        <button type="submit" class="w-full px-3 py-6 rounded-lg bg-indigo-600 text-white font-bold hover:bg-indigo-700 transition">Register Now</button>
+                    </form>
+                </div>
+            </section>
+  <script src="script.js"></script>
+  </body>
+</html>
+</html>
